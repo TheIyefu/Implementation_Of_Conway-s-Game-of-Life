@@ -45,7 +45,7 @@ class Cell{
     changeColor(){
         if (this.cellDiv.state == true){
             this.cellDiv.style.backgroundColor = 'white';
-            this.cellDiv.style.border = '1px solid black';
+            this.cellDiv.style.border = '.2px solid black';
         }else{
             this.cellDiv.style.backgroundColor = 'black';
             this.cellDiv.style.border = '.2px dotted green';
@@ -157,7 +157,7 @@ function automata(){
     if(e.target.state == false){
         e.target.state = true;
         e.target.style.backgroundColor = 'white';
-        e.target.style.border = '1px solid black';
+        e.target.style.border = '.2px solid black';
     }else{
         e.target.state = false;
         e.target.style.backgroundColor = 'black';
